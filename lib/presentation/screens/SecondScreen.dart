@@ -1,6 +1,5 @@
 import 'package:counter_app_bloc/blocs/counter_bloc.dart';
 import 'package:counter_app_bloc/events/counter_event.dart';
-import 'package:counter_app_bloc/presentation/screens/ThirdScreen.dart';
 import 'package:counter_app_bloc/states/counter_state.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -41,7 +40,7 @@ class SecondScreen extends StatelessWidget {
                 height: 40,
                 width: 150,
                 // ignore: deprecated_member_use
-                child: RaisedButton(
+                child: ElevatedButton(
                   onPressed: () {
                     Navigator.pushNamed(context, '/');
                   },
@@ -58,7 +57,7 @@ class SecondScreen extends StatelessWidget {
                 height: 40,
                 width: 150,
                 // ignore: deprecated_member_use
-                child: RaisedButton(
+                child: ElevatedButton(
                   onPressed: () {
                     Navigator.pushNamed(context, '/thirdScreen');
                   },

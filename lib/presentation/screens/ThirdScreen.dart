@@ -40,7 +40,7 @@ class ThirdScreen extends StatelessWidget {
                 height: 40,
                 width: 150,
                 // ignore: deprecated_member_use
-                child: RaisedButton(
+                child: ElevatedButton(
                   onPressed: () {
                     Navigator.pushNamed(context, '/');
                   },
@@ -57,7 +57,7 @@ class ThirdScreen extends StatelessWidget {
                 height: 40,
                 width: 150,
                 // ignore: deprecated_member_use
-                child: RaisedButton(
+                child: ElevatedButton(
                   onPressed: () {
                     Navigator.pushNamed(context, '/secondScreen');
                   },
